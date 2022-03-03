@@ -23,7 +23,8 @@ namespace SalaryCalculator
             {
                 factor = 1.5m;
             }
-            else if (employeeType == EmployeeType.SeniorManager)
+
+            else if (employeeType == EmployeeType.Expert)
             {
                 factor = 3;
             }
